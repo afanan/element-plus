@@ -1,11 +1,5 @@
 <template>
-  <el-rate
-    v-model="value"
-    disabled
-    show-score
-    text-color="#ff9900"
-    score-template="{value} points"
-  />
+  <el-rate v-model="form.evaluationStars" disabled show-score />
 </template>
 
 <script lang="ts" setup>
